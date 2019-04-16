@@ -15,7 +15,7 @@ code-creation,Stub,2,0x2d5000a33d40,182,"DoubleToIStub"
 code-creation,Stub,2,0x2d5000a33e00,507,"NumberToStringStub"
 ```
 
-在以前你需要 V8 源代码去解释这些刻度。幸运的是，工具最近被引入到 Node.js 4.4.0，方便了这些信息的消费，而不另行建立 V8 源。让我们看看内置探查器如何帮助您洞察应用程序性能。
+在以前你需要 V8 源代码去解释这些刻度。幸运的是，从 Node.js 4.4.0 开始此工具就被引入，这样就方便了这些信息的消费而不另行建立 V8 源。让我们看看内置探查器如何帮助您洞察应用程序性能。
 
 为了说明滴答探查器的使用，我们将使用一个简单的快速应用程序。我们的应用程序将有两个处理程序，一个用于向系统中添加新用户：
 
@@ -217,5 +217,5 @@ Percentage of the requests served within a certain time (ms)
 
 希望通过对此（诚然是做作的）示例的性能调查，您已经看到了 V8 刻度处理器如何帮助您更好地了解 Node.js 应用程序的性能。
 
-[V8 内探测器]: https://developers.google.com/v8/profiler_example
+[V8 内探测器]: https://v8.dev/docs/profile
 [异步编程的好处]: https://nodesource.com/blog/why-asynchronous

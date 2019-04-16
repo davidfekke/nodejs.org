@@ -20,9 +20,9 @@ code-creation,Stub,2,0x2d5000a33d40,182,"DoubleToIStub"
 code-creation,Stub,2,0x2d5000a33e00,507,"NumberToStringStub"
 ```
 
-In the past you need the V8 source code to be able to interpret the ticks.
-Luckily, tools have recently been introduced into Node.js 4.4.0 that facilitate
-the consumption of this information without separately building V8 from source.
+In the past, you needed the V8 source code to be able to interpret the ticks.
+Luckily, tools have been introduced since Node.js 4.4.0 that facilitate the
+consumption of this information without separately building V8 from source.
 Let's see how the built-in profiler can help provide insight into application
 performance.
 
@@ -276,5 +276,5 @@ Hopefully, through the performance investigation of this (admittedly contrived)
 example, you've seen how the V8 tick processor can help you gain a better
 understanding of the performance of your Node.js applications.
 
-[profiler inside V8]: https://developers.google.com/v8/profiler_example
+[profiler inside V8]: https://v8.dev/docs/profile
 [benefits of asynchronous programming]: https://nodesource.com/blog/why-asynchronous
